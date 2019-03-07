@@ -28,13 +28,13 @@ class student
 
 void student::putDetails(void)   //member function definition, outside of the class
 {
-	cout << "Student details:\n";
+	cout << "Student details:\n"; // prints student details
 	cout << "Name:"<< Name << ",Roll Number:" << RollNo << ",SAPID:" << SAPID << ",Branch:" << Branch;
 }
 
 int main()
 {
-	student std;		
+	student std;		// student
 	
 	std.getDetails();
 	std.putDetails();
