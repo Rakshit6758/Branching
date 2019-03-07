@@ -26,11 +26,11 @@ class Test
  int main()
  {
       Test o1, o2;
-      float secondDataOfObject2;
+      float secondDataOfObject2; 
 
       o1.insertIntegerData(12);
       secondDataOfObject2 = o2.insertFloatData();
 
-      cout << "You entered " << secondDataOfObject2;
+      cout << "You entered " << secondDataOfObject2; // prints you entered
       return 0;
  }
