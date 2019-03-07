@@ -9,13 +9,13 @@ class Test
 
     public:
        
-       void insertIntegerData(int d) //member function
+       void insertIntegerData(int d) //member function1
        {
           data1 = d;
           cout << "Number: " << data1;
         }
 
-       float insertFloatData()
+       float insertFloatData()    //member function2
        {
            cout << "\nEnter data: ";
            cin >> data2;

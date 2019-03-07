@@ -18,7 +18,7 @@ class student
 {
 	cout << "Enter Name: " ;  //enter the name 
 	cin >> Name;
-	cout << "Enter Roll number: ";
+	cout << "Enter Roll number: ";  // enter roll no.
 	cin >> RollNo;
 	cout << "Enter SAPID: ";
 	cin >> SAPID;
