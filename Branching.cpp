@@ -22,7 +22,7 @@ class student
 	cin >> RollNo;
 	cout << "Enter SAPID: "; //enter sap id
 	cin >> SAPID;
-	cout << "Enter Branch: ";
+	cout << "Enter Branch: "; // enter branch
 	cin >> Branch;
 }
 

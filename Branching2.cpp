@@ -19,7 +19,7 @@ class Test
        {
            cout << "\nEnter data: "; // enter data
            cin >> data2;
-           return data2;
+           return data2; //return
         }
 };
 
