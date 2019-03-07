@@ -17,7 +17,7 @@ class Test
 
        float insertFloatData()    //member function2
        {
-           cout << "\nEnter data: ";
+           cout << "\nEnter data: "; // enter data
            cin >> data2;
            return data2;
         }
