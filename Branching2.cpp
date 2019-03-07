@@ -9,7 +9,7 @@ class Test
 
     public:
        
-       void insertIntegerData(int d)
+       void insertIntegerData(int d) //member function
        {
           data1 = d;
           cout << "Number: " << data1;

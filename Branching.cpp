@@ -16,7 +16,7 @@ class student
 
   void student::getDetails(void)  //member function definition, outside of the class
 {
-	cout << "Enter Name: " ;
+	cout << "Enter Name: " ;  //enter the name 
 	cin >> Name;
 	cout << "Enter Roll number: ";
 	cin >> RollNo;
