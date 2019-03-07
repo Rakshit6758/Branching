@@ -29,7 +29,7 @@ class student
 void student::putDetails(void)   //member function definition, outside of the class
 {
 	cout << "Student details:\n";  // prints student details
-	cout << "Name:"<< Name << ",Roll Number:" << RollNo << ",SAPID:" << SAPID << ",Branch:" << Branch;
+	cout << "Name:"<< Name << ",Roll Number:" << RollNo << ",SAPID:" << SAPID << ",Branch:" << Branch; // prints name, roll number,sap id, branch
 }
 
 int main()
