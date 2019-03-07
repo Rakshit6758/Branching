@@ -24,6 +24,7 @@ class student
 	cin >> SAPID;
 	cout << "Enter Branch: ";
 	cin >> Branch;
+	//new chnge to checout to master 
 }
 
 void student::putDetails(void)   //member function definition, outside of the class
