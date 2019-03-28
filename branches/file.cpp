@@ -3,7 +3,7 @@ using namespace std;
 class car
 {
   private:
-    int car_number;
+    int car_number;   // member function for car number
     char car_model[10];
     char car_company[20];
     char car_name[20];
@@ -15,7 +15,7 @@ class car
 // function definition
 void car::getdata()
  {
-   cout<<"Enter car number: "; cin>>car_number;
+   cout<<"Enter car number: "; cin>>car_number;  // enter car number
    cout<<"Enter car model: "; cin>>car_model;
    cout<<"Enter car company: "; cin>>car_company;
    cout<<"Enter car name: "; cin>>car_name;
@@ -23,7 +23,7 @@ void car::getdata()
  }
 void car::showdata()
  {
-   cout<<"Car number is "<<car_number;
+   cout<<"Car number is "<<car_number; // cout for car number
    cout<<"\nCar model is "<<car_model;
    cout<<"\nCar company is "<<car_company;
    cout<<"\nCar name is "<<car_name;
